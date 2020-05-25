@@ -1,10 +1,8 @@
 (* 
     This is a simple functional style OCAML implementation of
-    the Euclidian Algorithm. I chose OCAML because of the simplicity
+    the Extended Euclidian Algorithm. I chose OCAML because of the simplicity
     that functional languages offer in writing what can be larger
-    and more complex code pieces in other languages. This program
-    accepts user input and returns the modular multiplicative inverse
-    of the 2 integers entered. 
+    and more complex code pieces in other languages. 
 
     Author: Dustin Ray
     TCSS 581
