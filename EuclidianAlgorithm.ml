@@ -3,7 +3,6 @@
     the Extended Euclidian Algorithm. I chose OCAML because of the simplicity
     that functional languages offer in writing what can be larger
     and more complex code pieces in other languages. 
-
     Author: Dustin Ray
     TCSS 581
     Winter 2020
@@ -11,13 +10,13 @@
 
 print_string "\nOCAML Extended Euclidian Algorithm v1.0 \n\n";;
 
-(*  Function solves Bezouts Identity of the form 
+(*  Function resolves Bezouts Identity of the form 
         aS + bT = GCD(a, b) 
     We accept a and b as input, and recursively
     mod a by b, mapping d (the divisor) along with
     S and T to the function d, t, s - the result of
     a divided by (b multipled by t). If b is zero, we exit
-    recursion and return a and 1 as coefficients and zero as GCD.*)
+    recursion and return a as GCD and 0 and 1 as coefficients S and T.*)
 let rec ex_euclid a b =
 	
     if b = 0 then a, 1, 0
