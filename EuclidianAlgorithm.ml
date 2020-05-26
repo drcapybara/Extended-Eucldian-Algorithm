@@ -5,7 +5,7 @@
     and more complex code pieces in other languages. 
     Author: Dustin Ray
     TCSS 581
-    Winter 2020
+    Spring 2020
 *)
 
 print_string "\nOCAML Extended Euclidian Algorithm v1.0 \n\n";;
